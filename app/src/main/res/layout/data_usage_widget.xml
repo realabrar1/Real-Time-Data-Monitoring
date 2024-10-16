@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_background"
+    android:paddingStart="@dimen/margin_small"
+    android:paddingEnd="@dimen/margin_small"
+    android:paddingTop="@dimen/margin_extra_small"
+    android:paddingBottom="@dimen/margin_small"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.DataUsage.AppWidgetContainer">
+
+    <include
+        android:id="@+id/include"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_widget"/>
+
+</LinearLayout>

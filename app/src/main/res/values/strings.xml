@@ -1,0 +1,524 @@
+<resources>
+    <string name="app_name">Data Monitor</string>
+    <string name="appwidget_text">Example</string>
+    <string name="add_widget">Add widget</string>
+
+
+    <string name="reset_time" translatable="false">%1$d/%2$d/%3$d %4$d:%5$d:00</string>
+    <string name="widget_mobile_data_usage" translatable="false">%1$s %2$s</string>
+    <string name="notification_mobile_data_usage">Mobile data: %1$s</string>
+    <string name="notification_wifi_data_usage">Wi-Fi: %1$s</string>
+    <string name="home_mobile_data_sent">%1$s\nSent</string>
+    <string name="home_mobile_data_received">%1$s\nReceived</string>
+    <string name="home_wifi_data_sent">%1$s\nSent</string>
+    <string name="home_wifi_data_received">%1$s\nReceived</string>
+    <string name="label_current_data_warning_trigger_level_limit_set">Current trigger level: %1$s%% (%2$s)</string>
+    <string name="label_current_data_warning_trigger_level_limit_not_set">Current trigger level: %1$s%%</string>
+    <string name="label_data_trigger_level">When %1$s%% of the data is used</string>
+
+    <string name="hello_blank_fragment" translatable="false"></string>
+    <string name="app_label_package_name">Package name: %1$s</string>
+    <string name="app_label_uid">UID: %1$d</string>
+    <string name="app_name_placeholder">App name</string>
+    <string name="app_data_usage_placeholder">0 MB</string>
+    <string name="label_sent">sent</string>
+    <string name="label_received">received</string>
+    <string name="action_open_app_settings">Open the app settings</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="title_app_data_usage_session">Select session</string>
+    <string name="label_today">Today</string>
+    <string name="label_yesterday">Yesterday</string>
+    <string name="label_this_month">This month</string>
+    <string name="label_last_month">Last month</string>
+    <string name="label_this_year">This year</string>
+    <string name="label_all_time">All time</string>
+    <string name="title_app_data_usage_type">Select type</string>
+    <string name="label_mobile_data">Mobile data</string>
+    <string name="label_wifi">Wi-Fi</string>
+    <string name="title_data_usage">Data usage</string>
+    <string name="action_update">Update</string>
+    <string name="data_remaining_placeholder">0.00 GB remaining</string>
+    <string name="app_version_placeholder" translatable="false">v1.0</string>
+    <string name="label_dev">With ❤ by Bitroid</string>
+    <string name="label_loading_apps">Loading apps</string>
+    <string name="label_loading">Loading…</string>
+    <string name="label_app_data_usage_session_empty">No data available</string>
+    <string name="label_want_to_contribute">Click here to find out how to contribute to Data Monitor.</string>
+    <string name="setup_image_footer">Widgets and/or notification provide easy access to the amount of data used</string>
+    <string name="heading_data_reset">Reset counter</string>
+    <string name="daily">Daily</string>
+    <string name="monthly">Monthly</string>
+    <string name="heading_data_limit">Data limit</string>
+    <string name="data_limit_placeholder" translatable="false">0.00</string>
+    <string name="data_type_mb">MB</string>
+    <string name="data_type_gb">GB</string>
+    <string name="title_data_warning_trigger">Data warning trigger level</string>
+    <string name="title_add_data_plan">Add data plan</string>
+    <string name="title_refresh_interval">Select refresh interval</string>
+    <string name="option_1_min">1 minute</string>
+    <string name="option_2_min">2 minutes</string>
+    <string name="option_5_min">5 minutes</string>
+    <string name="option_10_min">10 minutes</string>
+    <string name="option_15_min">15 minutes</string>
+    <string name="title_widget_setup">Set up the widget</string>
+    <string name="widget_setup_step_1">1. Touch and hold an empty space on your home screen.</string>
+    <string name="widget_setup_step_2">2. Tap \"Widgets\".</string>
+    <string name="widget_setup_step_3">3. Drag and drop the Data Monitor widget onto your home screen.</string>
+    <string name="heading_data_usage_today">Today\'s data usage</string>
+    <string name="action_add_data_plan_home">Add your data plan to start monitoring it</string>
+    <string name="heading_week_overview">This week\'s overview</string>
+    <string name="error_loading_overview">Could not load this week\'s overview.\nTry again later.</string>
+    <string name="title_setup">Setup Data monitor</string>
+    <string name="setup_widget">Set up the widget</string>
+    <string name="setup_notification">Set up notifications</string>
+    <string name="title_configure">Configure</string>
+    <string name="setup_widget_title">Widget</string>
+    <string name="setup_widget_refresh_interval">Widget refresh interval</string>
+    <string name="refresh_interval_placeholder">1 minute</string>
+    <string name="setup_show_remaining_data">Show info about remaining data</string>
+    <string name="setup_refresh_widget">Refresh widget</string>
+    <string name="refresh_widget_summary">Refresh the widget if it\'s facing any problem</string>
+    <string name="setup_notification_title">Notification</string>
+    <string name="setup_notification_refresh_interval">Refresh interval for notifications</string>
+    <string name="setup_show_mobile_usage">Show mobile-data usage</string>
+    <string name="setup_show_wifi_usage">Show Wi-Fi usage</string>
+    <string name="monitor_data">Monitor data usage</string>
+    <string name="setup_data_alert">Data usage alert</string>
+    <string name="data_alert_summary">Notify when the data limit is reached</string>
+    <string name="settings_general">General</string>
+    <string name="setup_add_data_plan">Add data plan</string>
+    <string name="add_data_plan_summary">Add or update your data plan</string>
+    <string name="setup_usage_reset_time">Reset usage time for data</string>
+    <string name="usage_reset_time_placeholder" translatable="false">12:00 AM</string>
+    <string name="app_license_header">App License</string>
+    <string name="oss_licenses">Opensource Licenses</string>
+    <string name="itsdrnoob">Dr.NooB</string>
+    <string name="contributors">Contributors</string>
+    <string name="itsdrnoob_summary"><![CDATA[Lead Developer and Designer]]></string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="dark_mode_summary">Turn on/off dark mode</string>
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_language">Language</string>
+    <string name="language_summary">Change the app language</string>
+    <string name="about">About</string>
+    <string name="about_summary"><![CDATA[Source, help and more]]></string>
+    <string name="license">License</string>
+    <string name="contributors_summary">Those who are always there</string>
+    <string name="donate">Donate</string>
+    <string name="donate_summary">Buy us a coffee, maybe?</string>
+    <string name="data_reset">Data reset</string>
+    <string name="data_limit">Data limit</string>
+    <string name="support_and_development">Support and development</string>
+    <string name="github">GitHub</string>
+    <string name="github_summary">View the source code</string>
+    <string name="xda">XDA Thread</string>
+    <string name="xda_summary"><![CDATA[FAQ, help and troubleshooting]]></string>
+    <string name="report">Report bugs</string>
+    <string name="report_summary">Report bugs or request features</string>
+    <string name="setup">Setup</string>
+    <string name="app_data_usage">App usage</string>
+    <string name="settings">Settings</string>
+    <string name="btc_address_copied">Bitcoin wallet address copied to clipboard</string>
+    <string name="eth_address_copied">Ethereum wallet address copied to clipboard</string>
+    <string name="ltc_address_copied">Litecoin wallet address copied to clipboard</string>
+    <string name="label_system_apps">System Apps</string>
+    <string name="package_system" translatable="false">com.android.systemui</string>
+    <string name="home">Home</string>
+    <string name="usage_access_permission">Usage Access Permission</string>
+    <string name="usage_access_body">Required to run the app, since it collects app usage stats.\nNo personal data is collected.</string>
+    <string name="action_grant">Grant permission</string>
+    <string name="label_tethering">Mobile Hotspot</string>
+    <string name="package_tethering" translatable="false">com.android.tethering</string>
+    <string name="label_removed">Removed Apps</string>
+    <string name="package_removed" translatable="false">com.android.removed</string>
+    <string name="oem_skin_warning">%1$s Please check the extra optimisation tips to ensure the app works properly.</string>
+    <string name="oem_skin_miui">MIUI detected.</string>
+    <string name="battery_optimisation_disabled">Battery optimisation disabled</string>
+    <string name="data_plan_saved">Data plan saved</string>
+    <string name="upi_app_not_found">Install an app that can do this first</string>
+    <string name="upi_unknown_error">Unknown error.\nPlease try again or another method.</string>
+    <string name="label_no_additional_lang">Click here to help translate the app.</string>
+    <string name="notification_disabled">Data monitor notification disabled</string>
+    <string name="label_widget_refresh_interval_change">Widget will be updated every %1$s</string>
+    <string name="label_notification_refresh_interval_change">Notification will be updated every %1$s</string>
+    <string name="label_data_usage_reset_time_change">Reset data usage every %1$s at %2$s</string>
+    <string name="label_data_usage_reset_date_change">Data usage will be reset on %1$s of every month</string>
+    <string name="remaining_data_info_enabled">Remaining data info enabled</string>
+    <string name="remaining_data_info_disabled">Remaining data info disabled</string>
+    <string name="label_monitoring_no_plan">Add a data plan to start monitoring</string>
+    <string name="label_widget_refreshed">Widget refreshed</string>
+    <string name="label_notification_enabled">Data monitor notification enabled</string>
+    <string name="label_notification_cannot_disable_both">Cannot turn off both elements</string>
+    <string name="label_setup_notification_first">Please set up the notification first</string>
+    <string name="label_data_plan_saved">Data plan saved</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="label_add_data_plan_first">Please add a data plan first</string>
+    <string name="title_data_warning_notification">Data usage warning</string>
+    <string name="body_data_warning_notification">You have used %1$d%% of your data limit</string>
+    <string name="body_app_data_warning_notification">%1$s has used up its data quota</string>
+    <string name="title_data_usage_notification">Data usage today: %1$s</string>
+    <string name="body_data_usage_notification_loading">Loading…</string>
+    <string name="label_data_remaining">%1$s remaining</string>
+    <string name="label_data_remaining_used_excess">%1$s extra used</string>
+    <string name="label_days_remaining">%1$s day(s) remaining</string>
+    <string name="disable_battery_optimisation">Turn off battery optimisation</string>
+    <string name="disable_battery_optimisation_body">Prevents killing Data Monitor when running in the background.\nOtherwise values might be incorrect.</string>
+    <string name="extra_optimisation_tips">Extra optimisation tips</string>
+    <string name="oem_battery_settings">OEM battery settings</string>
+    <string name="action_next">Next</string>
+    <string name="overview_monday">Mon</string>
+    <string name="overview_tuesday">Tue</string>
+    <string name="overview_wednesday">Wed</string>
+    <string name="overview_thursday">Thurs</string>
+    <string name="overview_friday">Fri</string>
+    <string name="overview_saturday">Sat</string>
+    <string name="overview_sunday">Sun</string>
+    <string name="overview_2gb_plus" translatable="false">2 GB+</string>
+    <string name="overview_2gb" translatable="false">2 GB</string>
+    <string name="overview_1_5gb" translatable="false">1.5 GB</string>
+    <string name="overview_1gb" translatable="false">1 GB</string>
+    <string name="overview_0_5gb" translatable="false">0.5 GB</string>
+    <string name="overview_0gb" translatable="false">0 GB</string>
+    <string name="label_translators">Translators</string>
+    <string name="setup_app_data_usage_alert">App data usage alert</string>
+    <string name="title_app_data_limit">App data limit</string>
+    <string name="network_diagnostics">Diagnostics</string>
+    <string name="run_diagnostics">Run Diagnostics</string>
+    <string name="running_diagnostics">Running Diagnostics</string>
+    <string name="connecting">Connecting</string>
+    <string name="testing_download">Testing download speeds</string>
+    <string name="testing_upload">Testing upload speeds</string>
+    <string name="testing_latency">Testing network latency</string>
+    <string name="current_connection">Current connection: %1$s</string>
+    <string name="network_stats">Network stats</string>
+    <string name="network_speed_mbps">%1$s Mbit/s</string>
+    <string name="max_download_speed">Max download speed</string>
+    <string name="min_download_speed">Min download speed</string>
+    <string name="avg_download_speed">Avg download speed</string>
+    <string name="max_upload_speed">Max upload speed</string>
+    <string name="avg_upload_speed">Avg upload speed</string>
+    <string name="min_latency">Min latency</string>
+    <string name="network_latency_ms">%1$s ms</string>
+    <string name="avg_latency">Avg latency</string>
+    <string name="network_ip">Network IP</string>
+    <string name="isp">Network Provider</string>
+    <string name="connected_server">Connected server: %1$s</string>
+    <string name="isp_server">Server</string>
+    <string name="isp_region">Region</string>
+    <string name="swipe_right_to_delete">Swipe right to delete an item</string>
+    <string name="refresh_list">Refresh list</string>
+    <string name="no_network_connection">No network connection detected!</string>
+    <string name="connection_error">Could not connect.\nPlease ensure you are connected to the Internet.</string>
+    <string name="app_label_screen_time">Screen time: %1$s</string>
+    <string name="app_label_background_time">Background usage: %1$s</string>
+    <string name="usage_time_label" translatable="false">%1$d %2$s %3$d %4$s</string>
+    <string name="ygorigor_summary">Romanian</string>
+    <string name="ygorigor" translatable="false">Igor Sorocean</string>
+    <string name="johnsonran_summary">Simplified Chinese</string>
+    <string name="johnsonran" translatable="false">JohnsonRan</string>
+    <string name="label_want_to_contribute_language">Click here to help translate the app into your language.</string>
+    <string name="current_language">Current</string>
+    <string name="available_languages">Available</string>
+    <string name="label_reset_every_month">%1$s of every month</string>
+    <string name="setup_usage_reset_date">Data usage reset date</string>
+    <string name="system_data_usage">System data usage</string>
+    <string name="cracky5322_summary">Traditional Chinese</string>
+    <string name="cracky5322" translatable="false">Jia-Bin</string>
+    <string name="louis_leblanc_summary">French</string>
+    <string name="louis_leblanc" translatable="false">Louis Leblanc</string>
+    <string name="network_speed_title">Network speed: %1$s</string>
+    <string name="network_speed_upload">Upload: %1$s</string>
+    <string name="network_speed_download">Download: %1$s</string>
+    <string name="network_signal_notification">Live network speed</string>
+    <string name="label_network_signal_notification_enabled">Live network speed enabled</string>
+    <string name="label_network_signal_notification_disabled">Live network speed disabled</string>
+    <string name="network_signal_summary">Beta feature</string>
+    <string name="read_phone_state_permission">Permission to read phone state</string>
+    <string name="read_phone_state_body">Devices running Android version 9 and below must grant this permission manually. No personal data will be collected.</string>
+    <string name="action_permission_granted">Permission granted</string>
+    <string name="error_permission_denied">Permission denied. Please grant it manually.</string>
+    <string name="telegram_support">Telegram support</string>
+    <string name="telegram_summary">Join the support group</string>
+    <string name="telegram_chat" translatable="false">https://t.me/datamonitor</string>
+    <string name="rate_app">Rate the app on Google Play</string>
+    <string name="rate_app_summary">Your feedback is appreciated</string>
+    <string name="check_for_update">Check for updates</string>
+    <string name="current_version">Current version: %1$s</string>
+    <string name="new_version">New version: %1$s</string>
+    <string name="label_changelogs">Find out what\'s new</string>
+    <string name="no_update_available">You are running the latest version.</string>
+    <string name="label_update_available">New version is available!</string>
+    <string name="label_download_update">Download update</string>
+    <string name="checking_for_update">Checking for updates…</string>
+    <string name="new_update_available">A new version is available!</string>
+    <string name="update_fetch_error">Couldn\'t fetch updates</string>
+    <string name="settings_app_theme">Theme</string>
+    <string name="app_theme_summary">Select the app theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">Follow system theme</string>
+    <string name="light_theme_summary">Light theme selected</string>
+    <string name="dark_theme_summary">Dark theme selected</string>
+    <string name="system_theme_summary">Following system theme</string>
+    <string name="hudaifa_abdullah_summary">Arabic</string>
+    <string name="hudaifa_abdullah" translatable="false">Hudaifa Abdullah</string>
+    <string name="license_summary">View app licenses</string>
+    <string name="network_diagnostics_info">Network diagnostics may use around 20–30 MB data. Ensure you have this available in your plan, else network charges may apply.</string>
+    <string name="holydemon" translatable="false">HolyDemon</string>
+    <string name="holydemon_summary">Malayalam</string>
+    <string name="liviogasp" translatable="false">Liviogasp</string>
+    <string name="liviogasp_summary">Italian</string>
+    <string name="comradekingu_summary">Translation support</string>
+    <string name="comradekingu" translatable="false">Allan Nordhøy</string>
+    <string name="f_droid_page">View app on F-Droid</string>
+    <string name="f_droid_page_summary">Check the app on the official F-Droid repo</string>
+    <string name="label_crash_logs">Crash logs</string>
+    <string name="label_device_info">Device info</string>
+    <string name="crash_report_body">It seems like Data Monitor has crashed. You can send the crash report to the developer to help analyse the problem and solve it quicker. If no crash occurred, kindly ignore.</string>
+    <string name="crash_report_title">Crash Report</string>
+    <string name="device_info_content_label">See what\'s included in Device info</string>
+    <string name="label_telegram">Telegram</string>
+    <string name="report_github_summary">Open a new issue on Github</string>
+    <string name="report_telegram_summary">Send the crash report in Telegram support chat</string>
+    <string name="report_mail_summary">Send the crash report in mail</string>
+    <string name="mail_uri" translatable="false">mailto:%1$s?&amp;subject=%2$s&amp;body=%3$s</string>
+    <string name="total_usage">Total usage: %1$s</string>
+    <string name="label_unknown">Unknown</string>
+    <string name="auto_hide_live_network">Auto hide network speed</string>
+    <string name="auto_hide_live_network_summary">Stop network speed notification when network is not connected</string>
+    <string name="custom">Custom</string>
+    <string name="heading_data_reset_custom_counter">Plan validity</string>
+    <string name="label_custom_start_date">Start date: %1$s</string>
+    <string name="label_custom_end_date">End date: %1$s</string>
+    <string name="setup_usage_reset_date_custom_selected">Custom data plan is active</string>
+    <string name="title_data_plan_expired">Data plan expired!</string>
+    <string name="summary_data_plan_expired">You might want to update your plan</string>
+    <string name="error_unknown_telegram_client">Telegram not installed or unknown client present. Please try another method.</string>
+    <string name="crash_logs_extra_text">Data Monitor crash logs</string>
+    <string name="label_select_app">Select app</string>
+    <string name="label_crash_logs_share_chat">Share to chat: @datamonitor</string>
+    <string name="crash_logs_warning">Crash Logs; Do Not modify</string>
+    <string name="title_device_info_contents">Device info contents</string>
+    <string name="device_info_body">Device info includes: \nDevice Manufacturer\nDevice Brand\nDevice Model\nDevice Codename\nAndroid Version</string>
+    <string name="label_crash_logs_copied">Crash logs copied to clipboard</string>
+    <string name="label_mail">Mail</string>
+    <string name="battery_optimisation_enabled_info">Battery optimisation is enabled. This will interfere with the working of Data Monitor.</string>
+    <string name="label_battery_optimisation">Battery optimisation</string>
+    <string name="error_no_crash_logs">No crash logs found. Are you sure a crash occurred?</string>
+    <string name="label_copy_logs">Copy logs</string>
+    <string name="settings_network_diagnostics">Network diagnostics</string>
+    <string name="network_diagnostics_summary">Switch diagnostics server</string>
+    <string name="settings_diagnostics_server">Server</string>
+    <string name="settings_download_server">Download server</string>
+    <string name="settings_upload_server">Upload server</string>
+    <string name="download_url_1_summary" translatable="false">http://speedtest.ftp.otenet.gr</string>
+    <string name="download_url_2_summary" translatable="false">https://github.com</string>
+    <string name="download_url_3_summary" translatable="false">http://xcal1.vodafone.co.uk</string>
+    <string name="upload_url_1_summary" translatable="false">https://www.azurespeed.com</string>
+    <string name="upload_url_2_summary" translatable="false">https://v2.convertapi.com</string>
+    <string name="upload_url_3_summary" translatable="false">https://easyupload.io</string>
+    <string name="custom_upload_url_hint">Enter complete upload URL</string>
+    <string name="label_custom_server">Custom server</string>
+    <string name="custom_download_url_hint">Enter complete download URL</string>
+    <string name="label_custom_server_save_success">Server preference saved</string>
+    <string name="error_invaliid_url">Invalid download URL!</string>
+    <string name="error_url_verification_failed">Couldn\'t verify URL! Please try again or use a different one.</string>
+    <string name="comradekingu_translation_summary" translatable="false">Norwegian Bokmål</string>
+    <string name="metezd_summary" translatable="false">Turkish</string>
+    <string name="metezd" translatable="false">metezd</string>
+    <string name="eUgEntOptIc44" translatable="false">Jean-Luc Tibaux</string>
+    <string name="eUgEntOptIc44_summary" translatable="false">German, Italian, French</string>
+    <string name="ersen0" translatable="false">Oğuz Ersen</string>
+    <string name="ersen0_summary" translatable="false">Turkish</string>
+    <string name="AxusWizix" translatable="false">Axus Wizix</string>
+    <string name="AxusWizix_summary" translatable="false">Russian, Ukrainian, Russian</string>
+    <string name="hectorgamer_summary" translatable="false">Portuguese</string>
+    <string name="hector_gamer" translatable="false">Hector Gamer</string>
+    <string name="BLENICeI_summary" translatable="false">Spanish</string>
+    <string name="BLENICeI" translatable="false">BLENICeI</string>
+    <string name="Igor_summary" translatable="false">Spanish</string>
+    <string name="Igor" translatable="false">Igor</string>
+    <string name="Denis_summary" translatable="false">Ukrainian</string>
+    <string name="Denis" translatable="false">Denis</string>
+    <string name="friedrich_summary" translatable="false">German</string>
+    <string name="friedrich" translatable="false">Friedrich</string>
+    <string name="helmut_summary" translatable="false">German</string>
+    <string name="helmut" translatable="false">Helmut</string>
+    <string name="kyoya_summary" translatable="false">Turkish</string>
+    <string name="kyoya" translatable="false">Kyoya</string>
+    <string name="paul_summary" translatable="false">German</string>
+    <string name="paul" translatable="false">Paul</string>
+    <string name="tobias_summary" translatable="false">German</string>
+    <string name="tobias" translatable="false">Tobias</string>
+    <string name="error_invalid_plan">Invalid plan!</string>
+    <string name="label_send_report">Send report via</string>
+    <string name="label_permission_denied">Permission denied!</string>
+    <string name="notification_permission_denied_body">Features including Data monitor notification, Live network speed and Data usage alert won\'t work properly without notification permission. Please grant it manually.</string>
+    <string name="settings_disable_haptics">Disable haptics</string>
+    <string name="disable_haptics_summary">Disable haptic feedback across the app</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_add_data_plan_home_summary">No data plan found! Add a data plan to start tracking it.</string>
+    <string name="label_select_start_date">Select start date</string>
+    <string name="label_plan_end_date">Select end date</string>
+    <string name="combine_notifications">Combine notifications</string>
+    <string name="combine_notifications_summary">Combine Data monitor and Network speed into one notification.</string>
+    <string name="combined_notification_icon">Combined notification icon</string>
+    <string name="combined_notification_icon_summary">Choose the icon to be displayed for the combined notification</string>
+    <string name="error_combine_notifications_enabled">Combined notification enabled. Cannot disable individual notification.</string>
+    <string name="option_1_sec">Every second</string>
+    <string name="option_15_sec">15 seconds</string>
+    <string name="option_30_sec">30 seconds</string>
+    <string name="lockscreen_notification">Enable notification on lock screen</string>
+    <string name="exclude_apps">Exclude apps</string>
+    <string name="exclude_apps_summary">Exclude app traffic from data usage</string>
+    <string name="action_add_application">Add Application</string>
+    <string name="label_no_apps_added">No apps added. Click the below button to add an application.</string>
+    <string name="title_app_picker">Select an application</string>
+    <string name="app_search_hint">Find an app</string>
+    <string name="label_show_system_apps">Show System apps</string>
+    <string name="label_hide_system_apps">Hide System apps</string>
+    <string name="app_already_present">App is already preset in list.</string>
+    <string name="title_remove_apps">Remove selected apps?</string>
+    <string name="action_delete">Delete</string>
+    <string name="error_unknown">An unknown error occurred. Please try again.</string>
+    <string name="diagnostics_history">Diagnostics History</string>
+    <string name="settings_save_results">Save results</string>
+    <string name="save_results_summary">Save Network diagnostics results</string>
+    <string name="title_delete_results">Delete selected results?</string>
+    <string name="action_select_all">Select all</string>
+    <string name="Atalanttore_summary">German</string>
+    <string name="Atalanttore">Ettore Atalan</string>
+    <string name="gallegonovato_summary">Spanish</string>
+    <string name="gallegonovato">gallegonovato</string>
+    <string name="Kefir2105_summary">Ukrainian</string>
+    <string name="Kefir2105">Kefir2105</string>
+    <string name="rex07_summary">Arabic</string>
+    <string name="rex07">Rex_sa</string>
+    <string name="shailendramaurya_summary">Hindi, Bhojpuri</string>
+    <string name="shailendramaurya">Shailendra Maurya</string>
+    <string name="iqb4lsp_summary">Indonesian</string>
+    <string name="iqb4lsp">iqb4lsp</string>
+    <string name="Master2050_summary">Traditional Chinese, Portuguese, French, Norwegian Bokmål, Spanish, German, Romanian, Korean, Turkish, Simplified Chinese, Ukrainian, Hindi, Russian, Arabic</string>
+    <string name="Master2050">Master2050</string>
+    <string name="bonbonboi_summary">Arabic</string>
+    <string name="bonbonboi">bonbonboi</string>
+    <string name="MarongHappy_summary">Korean</string>
+    <string name="MarongHappy">JungHee Lee</string>
+    <string name="U1M450W_summary">Uzbek</string>
+    <string name="U1M450W">U1M450W</string>
+    <string name="atharvshinde_summary">Developer</string>
+    <string name="atharvshinde">Atharv Shinde</string>
+    <string name="graphixmedia">Graphixx</string>
+    <string name="graphixmedia_summary">Dutch</string>
+    <string name="hinamechan">HinameChan</string>
+    <string name="hinamechan_summary">Turkish</string>
+    <string name="atharvshinde_translation_summary">Marathi</string>
+    <string name="label_custom_start_time">Start Time: %1$s</string>
+    <string name="action_save">Save</string>
+    <string name="label_custom_end_time">End time: %1$s</string>
+    <string name="error_invalid_plan_duration">Invalid plan duration</string>
+    <string name="donate_info">Data Monitor is a Free and Open-Source application and will always remain that way :)\n\nIf you like to support the development of the app, a donation would be greatly appreciated.</string>
+    <string name="label_paypal">PayPal</string>
+    <string name="paypal_summary">Donate via PayPal</string>
+    <string name="label_upi">BHIM-UPI</string>
+    <string name="upi_summary">Donate via UPI</string>
+    <string name="label_buymeacoffee">Buy Me A Coffee</string>
+    <string name="buymeacoffee_summary">Buy me a coffee :)</string>
+    <string name="xmr_address_copied">Monero wallet address copied to clipboard</string>
+    <string name="tadekdudek">tadekdudek</string>
+    <string name="tadekdudek_summary">Polish</string>
+    <string name="error_network_monitor_start">Failed to start Network Monitor. Open the app to refresh.</string>
+    <string name="label_filter_app_usage">Filter App Usage</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_current_plan">Current Plan</string>
+    <string name="home_plan_usage_details">%1$s used | %2$s</string>
+    <string name="label_plan_validity">Valid till %1$s | %2$s</string>
+    <string name="always_show_total">Always show total</string>
+    <string name="always_show_total_summary">Always show total data used in notification irrespective of selected options.</string>
+    <string name="app_label_combined_total">Total data usage: %1$s</string>
+    <string name="error_alarm_permission_denied">Alarm permission denied!</string>
+    <string name="error_alarm_permission_denied_summary">You tried to perform an action that requires the SCHEDULE_EXACT_ALARM permission, which is not granted to the app. Click here to grant the permission.</string>
+    <string name="error_alarm_permission_denied_dialog_summary">Data Monitor requires SCHEDULE_EXACT_ALARM permission to work properly. You can still use the app, but some features might not work properly.</string>
+    <string name="error_alarm_permission_denied_feature_summary">You cannot use this feature without granting SCHEDULE_EXACT_ALARM permission.</string>
+    <string name="label_do_not_show_again">Do not show again</string>
+    <string name="fjuro">Fjuro</string>
+    <string name="fjuro_summary">Czech</string>
+    <string name="croxz900">Croxz</string>
+    <string name="croxz900_summary">Turkish</string>
+    <string name="ngocanhtve">ngocanhtve</string>
+    <string name="ngocanhtve_summary">Vietnamese</string>
+    <string name="bluehomewu">EdwardWu</string>
+    <string name="bluehomewu_summary">Traditional Chinese</string>
+    <string name="label_data_plan_updated">Data plan updated!</string>
+    <string name="data_plan_updated_summary">Your new plan is valid till %1$s</string>
+    <string name="setup_auto_update_data_plan">Auto-update data plan</string>
+    <string name="auto_update_data_plan_summary">Automatically update your data plan with a similar one.</string>
+    <string name="wall_of_thanks">Wall of Thanks</string>
+    <string name="app_contributors">App Contributors</string>
+    <string name="label_thank_you">Thank You</string>
+    <string name="label_learn_more">Learn more</string>
+    <string name="wall_of_thanks_body">Data Monitor has come a long way since its inception, and we couldn\'t have done it without the support of our generous donors.</string>
+    <string name="label_top_donors">Top Donors</string>
+    <string name="label_all_donors">All Donors</string>
+    <string name="error_data_fetch_failed">Failed to fetch data</string>
+    <string name="wall_of_thanks_summary">A place to show our appreciation to the supporters of the app.</string>
+    <string name="app_contributors_summary">A list of contributors who support the development of the app.</string>
+    <string name="setup_smart_data_allocation">Smart Data Allocation</string>
+    <string name="smart_data_allocation_summary">Smartly allocate your data using daily quotas and data rollovers.</string>
+    <string name="setup_daily_quota_alert">Daily quota alert</string>
+    <string name="daily_quota_alert_summary">Get an alert when your daily quota is exhausted.</string>
+    <string name="daily_quota_alert_title">Daily data quota reached!</string>
+    <string name="daily_quota_alert_body">You\'ve exhausted your daily data quota.</string>
+    <string name="label_daily_quota">Daily quota: %1$s</string>
+    <string name="rezaalmanda">Reza</string>
+    <string name="rezaalmanda_summary">Indonesian</string>
+    <string name="gnu_ewm_summary">Polish</string>
+    <string name="gnu_ewm">Eryk Michalak</string>
+    <string name="rintan">Rintan</string>
+    <string name="rintan_summary">Japanese</string>
+    <string name="dan">Dan</string>
+    <string name="dan_summary">Ukrainian</string>
+    <string name="jonnysemon">jonnysemon</string>
+    <string name="jonnysemon_summary">Arabic</string>
+    <string name="timtcg">Cong Phuc Nguyen</string>
+    <string name="timtcg_summary">Vietnamese</string>
+    <string name="chin_housin">chin housin</string>
+    <string name="chin_housin_summary">Simplified Chinese</string>
+    <string name="detrimental_god">Detrimental God</string>
+    <string name="detrimental_god_summary">Malayalam</string>
+    <string name="ecogaming">Eco-Gaming</string>
+    <string name="ecogaming_summary">Developer</string>
+    <string name="zahiruddinrushdi">zahiruddin rushdi</string>
+    <string name="zahiruddinrushdi_summary">Malay</string>
+    <string name="jean_mareilles">Jean Mareilles</string>
+    <string name="jean_mareilles_summary">French</string>
+    <string name="add_custom_session">Add custom session</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="label_select_start_time">Select start time</string>
+    <string name="label_select_end_time">Select end time</string>
+    <string name="error_invalid_session">Invalid session duration.</string>
+    <string name="action_reset">Reset</string>
+    <string name="add_time">Add time</string>
+    <string name="action_apply_filter">Apply Filter</string>
+    <string name="label_select_date">Select date</string>
+    <string name="label_welcome_header">Welcome to Data Monitor</string>
+    <string name="label_welcome_body">Track all your data usage - at one place</string>
+    <string name="get_started">Get started</string>
+    <string name="skip_setup">Skip setup</string>
+    <string name="flix">Flix</string>
+    <string name="flix_summary">German</string>
+    <string name="xxx">xXx</string>
+    <string name="xxx_summary">Russian</string>
+    <string name="ofermar">ofermar</string>
+    <string name="ofermar_summary">Hebrew</string>
+    <string name="label_plan_details_title_unknown">Unknown plan active</string>
+    <string name="label_plan_details_title_monthly">Monthly plan active</string>
+    <string name="label_plan_details_title_daily">Daily plan active</string>
+    <string name="label_plan_details_title_custom">Custom plan active</string>
+    <string name="buttercookie42">buttercookie42</string>
+    <string name="buttercookie42_summary">Developer</string>
+</resources>
